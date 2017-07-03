@@ -1,0 +1,489 @@
+/*
+ Localizable.strings
+ BubblesTwo
+ 
+ Created by Pierre RACINE on 25/04/2016.
+ Copyright © 2016 Absolutlabs. All rights reserved.
+ */
+
+"application_language" = "fr";
+
+"open" = "Ouvert";
+"open24" = "Ouvert 24h/24";
+"close" = "Fermé";
+"openAt" = "Ouvre à %@";
+"closeAt" = "Ferme à %@";
+
+"likes" = "%d likes";
+"recommendation" = "%d avis";
+
+"min" = "%@min";
+"goThere" = "m'y rendre en %@min";
+
+"warning" = "Attention";
+"error" = "Erreur";
+"error_connection" = "Nous n’avons pas pu nous connecter à Internet, veuillez vérifier votre connexion.";
+"error_msg" = "Une erreur est survenue. Veuillez réessayer.";
+
+"retry" = "Réessayer";
+
+"service_unavailable" = "Ce service est actuellement indisponible.";
+
+"view_list" = "VUE LISTE";
+"view_map" = "VUE MAP";
+
+"add_service" = "Ajoute ce service";
+
+"home_msg" = "Les Bubbles vous rendent de petits services pour simplifier et décorer votre quotidien !";
+"home_ask" = "Besoin de quelque chose ?";
+
+
+"like_tripadvisor_msg" = "Laissez un avis ou un like sur %@";
+"like_msg" = "Laissez un like sur %@";
+"tripadvisor_msg" = "Laissez un avis sur %@";
+
+
+// Permissions
+
+
+"bluetooth_title" = "Activez votre bluetooth";
+"bluetooth_msg" = "Pour fonctionner correctement, le service %@ requiert l'activation de votre bluetooth !";
+"bluetooth_help" = "Ouvrez vos Reglages ou votre Centre de Controle en glissant depuis le bas de l'ecran.";
+
+"localization_title" = "Activez votre localisation";
+"localization_msg" = "Pour fonctionner correctement, le service %@ requiert l'activation de votre localisation !";
+"refuse_localization" = "Vous avez refusé la localisation. Si vous souhaitez profiter de ce service veuillez l'activer dans les réglages du téléphone.";
+"accept_localization" = "ACCEPTER LA LOCALISATION";
+
+"notification_title" = "Ne manquez rien !";
+"notification_msg" = "Soyez informé quand vous passez à moins de 20 mètres d'une Bubble et que votre batterie est à moins de 10%";
+"accept_notification" = "ACCEPTER LES NOTIFICATIONS";
+
+"internet_title" = "Oops-a-daisy !";
+"internet_msg" = "Pour fonctionner correctement, ce service requiert une connexion a internet. Connecte ton device et reesaye sans attendre !";
+"internet_retry" = "RÉESSAYER";
+
+
+"skip" = "Passer";
+
+
+
+// Share
+
+
+
+"messageShare" = " Ne tombez plus jamais en panne de batterie, téléchargez l’app MyBubbles : http://bbls.co";
+
+
+
+// Details
+
+
+
+"reserveAVB" = "RÉSERVER VOTRE BUBBLE ICI";
+"reserveBSY" = "TOUTES LES BUBBLES SONT UTILISÉES ACTUELLEMENT";
+"reserveOFF" = "RECHARGE TEMPORAIREMENT INDISPONIBLE";
+"reserveDSC" = "RÉSERVATION TEMPORAIREMENT INDISPONIBLE";
+"reserveDSCSubtitle" = "(vous pouvez aller directement sur place pour recharger)";
+
+"cancelReservation" = "ANNULER VOTRE RÉSERVATION";
+
+"closeAt" = "Ferme à %@";
+"openAt" = "Ouvre à %@";
+"closed" = "Fermé";
+"open" = "Ouvert";
+
+"MIN" = "MIN";
+"MINUTES" = "MINUTES";
+
+"valueMin" = "%@ MIN";
+"valueMinutes" = "%@ MINUTES";
+
+
+
+// Reservation
+
+
+
+"error" = "Erreur";
+"error_no_data" = "Nous n’avons pas pu nous connecter à Internet, veuillez vérifier votre connexion.";
+"error_msg" = "Une erreur est survenue. Veuillez réessayer.";
+"error_reservation" = "Votre réservation n’a pas pu être prise en compte. Veuillez vérifier votre connexion ou réessayer ultérieurement.";
+"error_cancel_reservation" = "Une erreur est survenue pendant l'annulation de votre réservation. Veuillez réessayer.";
+"error_reservation_token" = "Vous devez accepter les notifications push pour pouvoir reserver.";
+"messageReservation" = "VOTRE BUBBLE EST RÉSERVÉE\nPENDANT 30 MINUTES AU";
+"goThere" = "M'Y RENDRE";
+"wait" = "VEUILLEZ PATIENTER";
+
+
+
+// Thanks
+
+
+
+"title" = "MERCI";
+"subtitle" = "D'UTILISER LES BUBBLES.";
+
+"message" = "Vous avez passé un agréable moment ?";
+"share" = "N'hésitez pas à partager votre expérience :-)";
+
+"likes" = "%d likes";
+"visits" = "%d visites";
+
+"recommendation" = "%d avis";
+"writeRecommendation" = "Écrire un avis";
+
+
+// Tuto
+
+"swipe" = "Glissez pour continuer";
+
+"title1" = "";
+"title2" = "Localisez";
+"title3" = "Choisissez";
+"title4" = "Réservez";
+
+"text1" = "Simple, facile, et gratuit :\nMyBubbles app la première appli qui ne vous laisse plus à court de batterie!";
+"text2" = "Découvrez toutes les Bubbles à proximité et vérifiez leur disponibilité en un coup d’œil. Verte, la Bubble est disponible pour vous ! Bleu, rose ou grise: elle est déjà réservée, utilisée ou indisponible.";
+"text3" = "Consultez la fiche descriptive des lieux, les avantages et promotions de chacun, choisissez celui qui correspond à votre envie du moment et réservez votre Bubble en un clic.";
+"text4" = "Identifiez le slot réservé. Disponible durant 15 minutes, il clignotera à votre arrivée. Vous n'avez plus qu'à vous laissez guider jusqu'à votre Bubble.";
+
+"textLocalization" = "Pour utiliser l'App MyBubbles vous devez accepter la localisation :";
+"textNotification" = "Pour faire fonctionner le système de réservation gratuit de Bubbles, merci d'accepter les notifications :";
+"textDone" = "Nous vous souhaitons une agréable expérience avec MyBubbles App et ses Bubbles !";
+
+"acceptLocalization" = "Accepter la localisation";
+"acceptNotifPush" = "Accepter les notifications push";
+"finish" = "TERMINER";
+
+
+
+// Notification
+
+
+"messageNotif" = "Merci d'utiliser les Bubbles ! Elles seront toujours là pour votre smartphone !";
+
+
+// Menu
+
+
+
+"editProfile" = "Editer mon profil";
+"createAccount" = "Créer un compte";
+"myServices" = "mes services";
+"myNotifications" = "mes notifications";
+"about" = "informations";
+"logout" = "logout";
+
+
+
+//Login
+
+"resetPassword" = "Réinitialision du mot de passe";
+
+"buttonLogIn" = "CONNEXION";
+"buttonLoginWithFacebook" = "SE CONNECTER AVEC FACEBOOK";
+"buttonPasswordForgot" = "MOT DE PASSE OUBLIÉ ?";
+"buttonCreateAccount" = "CRÉER UN COMPTE";
+"labelAcceptTerms" = "En cliquant sur S'inscrire, vous acceptez les Conditions d'utilisation et la Politique de confidentialité de Bubbles.";
+"buttonAlreadySignUp" = "DÉJA INSCRIT ?";
+"buttonReset" = "REINITIALISER";
+"labelTermsOfUSe" = "CONDITIONS GÉNÉRALES D'UTILISATION";
+"validate" = "Creer";
+"modify" = "Modifier";
+"male" = "Monsieur";
+"female" = "Madame";
+"editProfile" = "Editer mon profil";
+"createAccount" = "Créer un compte";
+
+"placeholderEmail" = "Adresse Email";
+"errorEmail" = "Vous n'avez pas indiqué d'adresse email !";
+"errorEmailValidate" = "Vous email n'est pas valide !";
+
+"placeholderPassword" = "Mot de passe";
+"errorPassword" = "Vous n'avez pas indiqué de mot de passe !";
+"errorPasswordLength" = "Votre mot de passe n'est pas assez long !";
+
+"placeholderFirstName" = "Prénom";
+"errorFirstName" = "Vous n'avez pas indiqué de prénom !";
+
+"placeholderLastName" = "Nom";
+"errorLastName" = "Vous n'avez pas indiqué nom !";
+
+"placeholderPhone" = "Numéro de téléphone";
+"errorPhone" = "Vous n'avez pas indiqué de numéro de téléphone !";
+
+"placeholderAge" = "Age";
+"errorAge" = "Vous n'avez pas indiqué d'âge !";
+"errorAgeLength" = "Votre âge est incorrect !";
+
+"placeholderPostalCode" = "Code Postal";
+"errorPostalCode" = "Vous n'avez pas indiqué de code postal !";
+
+"placeholderGender" = "Civilité";
+"errorGender" = "Vous n'avez pas indiqué votre civilté !";
+
+"errorEmailMPassword" = "Mot de passe et/ou email incorrectes";
+
+"placeholderPromo" = "CODE PARRAINAGE";
+"errorPromo" = "Votre code promo est invalide !";
+
+"requiredFields" = "Champs obligatoires";
+"checkbox" = "En cochant cette case, j’accepte de partager ces informations avec « The Bubbles Company » et ses partenaires.";
+
+"updateSuccess" = "Les données ont bien été mise à jours !";
+
+"errorEmailFacebook" = "Une erreur est survenue lors de votre inscription par Facebook, veuillez-vous enregistrer manuellement.";
+"errorEmailFacebookRefuse" = "Pour vous connecter avec Facebook vous devez autoriser l'accès à l'adresse email. Merci.";
+
+
+
+// About
+
+
+
+"description_first_part" = "MyBubbles est la première App qui ne laissera plus jamais votre smartphone tomber à court de batterie. Intuitive et gratuite, cette application permet de géolocaliser, réserver et utiliser en toute simplicité des bornes de recharge nouvelle génération : les Bubbles.";
+"description_second_part" = "Les Bubbles sont installées partout dans Paris, dans les bars, restaurants, concept stores, hôtels, les plus tendances de la ville ! Pas besoin d'avoir votre câble de recharge avec vous : les Bubbles sont équipées des principaux câbles. En un clin d'oeil, dans l'App, vous pouvez choisir le lieu dans lequel recharger et passer un bon moment, vous savez si une Bubble est disponible ou déjà occupée, vous savez quels lieux sont encore ouverts, même à une heure tardive...\n\nDécouvrez les nombreux avantages de ce service d'accès simplifié et décomplexé à l'énergie, et débarrassez-vous du stress d'une batterie presque vide : dans Paris, vous trouverez toujours une Bubble proche de vous.";
+
+
+
+// Config color
+
+
+
+
+/*  */
+"period_mode_default_txt" = "Veuillez choisir la couleur\npar défaut de votre Bubble";
+
+/*  */
+"period_mode_charge_txt" = "Veuillez choisir la couleur\nen charge de votre Bubble";
+
+/*  */
+"service_color_int_max" = "Niveau de luminosité max";
+
+/*  */
+"service_color_int_min" = "Niveau de luminosité minimum";
+
+/*  */
+"service_color_glowing" = "Ajouter une respiration ?";
+
+/*  */
+"service_color_none" = "sans";
+
+
+
+
+
+
+
+// PIN
+
+/*  */
+"pin_text" = "Merci de renseigner le code PIN\nfigurant sur la notice.";
+
+/*  */
+"dialog_choose_owner_header" = "Deux propriétaires sont déjà\nenregistés sur cette Bubble";
+
+/*  */
+"dialog_choose_owner" = "Cliquez sur celui que vous souhaitez remplacer.";
+
+/*  */
+"pin_failed_attempts" = "%d essais restants.";
+"pin_failed" = "Code erroné";
+
+/*  */
+"pin_app_blocked" = "Code erroné, aucun essai restant.\nVeuillez essayer à nouveau dans 5 min.";
+
+/*  */
+"pin_success" = "Code réussi !";
+
+/*  */
+"list_bubbles_ownership" = "Propriétaire : ";
+
+/*  */
+"list_bubbles_ownership_yes" = "oui";
+
+/*  */
+"list_bubbles_ownership_no" = "non";
+
+
+
+
+
+
+/*  */
+//"list_txt_header" = "Plusieurs Bubbles sont détectées à proximité.\n<b>Cliquer sur celle que vous souhaitez configurer.</b>";
+
+"textScanBubbles1" = "Plusieurs Bubbles sont détectées à proximité.";
+"textScanBubbles2" = "Cliquer sur celle que vous souhaitez configurer.";
+"noBubble" = "Aucune Bubble détectée.";
+
+"lockscreen" = "Accès verrouillé.";
+
+"newScan" = "Relancer la recherche";
+
+"scan_text" = "Recherche de Bubble(s) à proximité";
+
+
+
+/*  */
+"menu_text_header" = "Merci ! Où souhaites-tu installer cette Bubble ?";
+
+/*  */
+"usage_public_tv" = "Dans un commerce ou un espace public";
+
+/*  */
+"usage_private_tv" = "À la maison ou dans une entreprise";
+
+/*  */
+"usage_public_service_charge_tv" = "Référencer cette Bubble dans l'app pour que tout le monde puisse la localiser !";
+
+/*  */
+"usage_public_service_none_tv" = "Cette Bubble reste utilisée dans un cadre privé, je ne souhaite pas référencer celle-ci.";
+
+/*  */
+"usage_private_service_none_tv" = "Cette Bubble est installée dans une entreprise, un hall d'accueil, un espace commun, un bureau privé…";
+
+/*  */
+"usage_private_service_notification_tv" = "Cette Bubble est utilisée dans un cadre totalement privé à la maison.";
+
+
+
+
+
+
+/*  */
+"text_top_bubble" = "Rapprochez-vous de votre Bubble";
+
+/*  */
+"text_bot_bubble" = "Pour accéder au Service Configuration,\nveuillez vous rapprocher de votre Bubble.\nVous êtes déjà à côté ? Merci de vérifier\n qu'elle est bien sous tension.";
+
+/*  */
+"button_green" = "OK, réessayer";
+
+/*  */
+"button_red" = "Plus tard";
+
+/*  */
+"carac_header" = "Merci, cette Bubble est destinée à un %s,%selle acquiert désormais les caractéristiques suivantes :";
+
+/*  */
+"carac_commerce_public_1_header" = "Drive-To-Store";
+
+/*  */
+"carac_commerce_public_1_content" = "Cette Bubble apparaitra sur la carte des Bubbles. Elle vous apportera de nouveaux clients !";
+
+/*  */
+"carac_commerce_public_2_header" = "Coupons en point de vente";
+
+/*  */
+"carac_commerce_public_2_content" = "Si vous le souhaitez, la Bubble diffusera auprès de vos visiteurs possédant l'app MyBubbles vos offres en temps réel ! Encouragez-les à télécharger l'app !";
+
+/*  */
+"carac_commerce_public_3_header" = "Rewards de visite";
+
+/*  */
+"carac_commerce_public_3_content" = "Vos visiteurs possédant l'app recevront automatiquement des points lors de leur passage ! À vous de décider si vous souhaiter offrir des avantages en retour !";
+
+/*  */
+"carac_commerce_public_4_header" = "Services marques partenaires";
+
+/*  */
+"carac_commerce_public_4_content" = "En option, et activables selon vos envies, des services partenaires pourront être associés à votre Bubble !";
+
+/*  */
+"carac_commerce_private_1_header" = "Coupons en point de vente";
+
+/*  */
+"carac_commerce_private_1_content" = "Si vous le souhaitez, la Bubble diffusera auprès de vos visiteurs possédant l'app MyBubbles vos offres en temps réel ! Encouragez-les à télécharger l'app !";
+
+/*  */
+"carac_commerce_private_2_header" = "Rewards de visite";
+
+/*  */
+"carac_commerce_private_2_content" = "Vos visiteurs possédant l'app recevront automatiquement des points lors de leur passage ! À vous de décider si vous souhaiter offrir des avantages en retour !";
+
+/*  */
+"carac_commerce_private_3_header" = "Services marques partenaires";
+
+/*  */
+"carac_commerce_private_3_content" = "En option, et activables selon vos envies, des services partenaires pourront être associés à votre Bubble !";
+
+/*  */
+"carac_entreprise_1_header" = "Configuration lumières et glowing";
+
+/*  */
+"carac_entreprise_1_content" = "Vous pourrez configurer la couleur par défaut de la Bubble, aux couleurs de l'entreprise !";
+
+/*  */
+"carac_entreprise_2_header" = "Mode nuit";
+
+/*  */
+"carac_entreprise_2_content" = "La Bubble éteindra ses lumières pendant la nuit.";
+
+/*  */
+"carac_entreprise_3_header" = "Mode Beacon";
+
+/*  */
+"carac_entreprise_3_content" = "Vous pourrez diffuser en temps réel des informations ou du contenu ludique à tous les collaborateurs qui se trouvent au bureau.";
+
+/*  */
+"carac_entreprise_4_header" = "Data";
+
+/*  */
+"carac_entreprise_4_content" = "Vous pourrez accéder à des informations de statistiques d'utilisation de la Bubble.";
+
+/*  */
+"carac_entreprise_5_header" = "Et de nombreux autres services Entreprise.";
+
+/*  */
+"carac_entreprise_5_content" = "En option, et activables selon les besoins de l'entreprise, de nombeux services peuvent etre developpés sur mesure pour simplifier la vie de tous les collaborateurs et visiteurs !";
+
+/*  */
+"carac_home_1_header" = "Configuration lumières et glowing";
+
+/*  */
+"carac_home_1_content" = "Tu pourras configurer la couleur par défaut de la Bubble, selon tes goûts !";
+
+/*  */
+"carac_home_2_header" = "Service Notifications Visuelles";
+
+/*  */
+"carac_home_2_content" = "La Bubble te préviendra par une alerte lumineuse quand tu reçois un appel, un SMS, une alerte Facebook… et tout type de notification !";
+
+/*  */
+"carac_home_3_header" = "Mode nuit";
+
+/*  */
+"carac_home_3_content" = "La Bubble éteindra ses lumières pendant la nuit.";
+
+/*  */
+"carac_home_4_header" = "Et de nombreux autres services Home";
+
+/*  */
+"carac_home_4_content" = "En option, et activables selon tes envies, de nombeux services sont disponibles pour ajouter encore un peu plus de fun à ton quotidien !";
+
+/*  */
+"public_bubble_activation" = "Bubble publique en cours d'activation…";
+
+/*  */
+"step_5" = "Étape 5/5 :";
+
+/*  */
+"upload_photo" = "Merci d'uploader une photo du lieu en HD";
+
+/*  */
+"photo_album" = "Cliquez ici pour accéder à votre album photo";
+
+/*  */
+"retake_pic" = "Retake Picture";
+
+/*  */
+"from_gallery" = "From Gallery";
+
+/*  */
+"update_profile_picture" = "Update Picture";
+
+
+
+
