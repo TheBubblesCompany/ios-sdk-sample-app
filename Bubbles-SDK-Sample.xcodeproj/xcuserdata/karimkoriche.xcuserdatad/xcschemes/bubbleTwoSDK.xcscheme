@@ -17,7 +17,7 @@
                BlueprintIdentifier = "C38F9A6C1CF3122200CAD8FF"
                BuildableName = "bubbleTwoSDK.framework"
                BlueprintName = "bubbleTwoSDK"
-               ReferencedContainer = "container:BubblesTwo.xcodeproj">
+               ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "C38F9A6C1CF3122200CAD8FF"
             BuildableName = "bubbleTwoSDK.framework"
             BlueprintName = "bubbleTwoSDK"
-            ReferencedContainer = "container:BubblesTwo.xcodeproj">
+            ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "C38F9A6C1CF3122200CAD8FF"
             BuildableName = "bubbleTwoSDK.framework"
             BlueprintName = "bubbleTwoSDK"
-            ReferencedContainer = "container:BubblesTwo.xcodeproj">
+            ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,9 +1,9 @@
 //
 //  main.m
-//  BubblesTwo
+//  Bubbles SDK Sample
 //
-//  Created by Pierre RACINE on 30/03/2016.
-//  Copyright © 2016 Absolutlabs. All rights reserved.
+//  Created by Karim Koriche on 27/06/2017.
+//  Copyright © 2017 Bubbles Company.  All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

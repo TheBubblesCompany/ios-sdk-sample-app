@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  BubblesTwo
+//  Bubbles SDK Sample
 //
 //  Created by Karim Koriche on 28/11/2016.
-//  Copyright © 2016 Absolutlabs. All rights reserved.
+//  Copyright © 2017 Bubbles Company.  All rights reserved.
 //
 
 #import "ViewController.h"
@@ -294,8 +294,6 @@
     _activity.alpha = 0;
     [_activity stopAnimating];
     
-    printf("Services : %s", [NSString stringWithFormat: @"%@", services].UTF8String);
-    
     _myServices = [NSMutableDictionary new];
     _myServices = [NSMutableDictionary dictionaryWithDictionary:services];
     
@@ -460,7 +458,7 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    [self.navigationItem setTitle:@"Bubbles Sample"];
+    [self.navigationItem setTitle:@"Bubbles SDK Sample"];
     [self.navigationItem setHidesBackButton:YES];
     [[UIApplication sharedApplication] setStatusBarHidden:NO];
     [self.navigationController.navigationBar setHidden:NO];

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BubblesTwo.xcodeproj">
+      location = "self:/Users/karimkoriche/Documents/ios-sdk-sample-app/Bubbles-SDK-Sample.xcodeproj">
    </FileRef>
 </Workspace>

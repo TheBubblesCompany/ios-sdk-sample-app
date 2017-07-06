@@ -19,12 +19,10 @@
 		C330CBB41DEC3BC900F435AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C330CBB31DEC3BC900F435AE /* ViewController.m */; };
 		C36911251E60A09D00C90C62 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36911231E60A09D00C90C62 /* Fabric.framework */; };
 		C36911261E60A09D00C90C62 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36911241E60A09D00C90C62 /* Crashlytics.framework */; };
-		C38811261F0A473A001BA079 /* back-arrow-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C38811251F0A473A001BA079 /* back-arrow-white.png */; };
-		C38811311F0A8B31001BA079 /* Bubbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38811301F0A8B31001BA079 /* Bubbles.framework */; };
-		C38811321F0A8B31001BA079 /* Bubbles.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C38811301F0A8B31001BA079 /* Bubbles.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C38F9C0B1CF31B0C00CAD8FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C38F9C0A1CF31B0C00CAD8FF /* libz.tbd */; };
 		C39601B91CE9DB8800572A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39601B81CE9DB8800572A97 /* Main.storyboard */; };
-		C3FC14801E310615008272DC /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FC147F1E310615008272DC /* UserNotifications.framework */; };
+		C3CA07961F0EABA0006EA819 /* Bubbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA07951F0EABA0006EA819 /* Bubbles.framework */; };
+		C3CA07971F0EABA0006EA819 /* Bubbles.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA07951F0EABA0006EA819 /* Bubbles.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C3FEA6511DA294E7007A17EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FEA6501DA294E7007A17EB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C38811321F0A8B31001BA079 /* Bubbles.framework in Embed Frameworks */,
+				C3CA07971F0EABA0006EA819 /* Bubbles.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +43,7 @@
 /* Begin PBXFileReference section */
 		8FC8067B1CCE43DD00267D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8FC8067D1CCE43F500267D55 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8FF7C3A41CABE02D005D996F /* BubblesTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblesTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF7C3A41CABE02D005D996F /* Bubbles-SDK-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bubbles-SDK-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF7C3A81CABE02D005D996F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FF7C3AA1CABE02D005D996F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FF7C3AB1CABE02D005D996F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,12 +63,10 @@
 		C330CBB31DEC3BC900F435AE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C36911231E60A09D00C90C62 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		C36911241E60A09D00C90C62 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		C38811251F0A473A001BA079 /* back-arrow-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow-white.png"; sourceTree = "<group>"; };
-		C38811301F0A8B31001BA079 /* Bubbles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bubbles.framework; sourceTree = "<group>"; };
 		C38F9C0A1CF31B0C00CAD8FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C39601B81CE9DB8800572A97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C3CA07951F0EABA0006EA819 /* Bubbles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bubbles.framework; sourceTree = "<group>"; };
 		C3F19E701D23BA12008ACAC1 /* libPods-BubblesTwo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-BubblesTwo.a"; path = "Pods/../build/Debug-iphoneos/libPods-BubblesTwo.a"; sourceTree = "<group>"; };
-		C3FC147F1E310615008272DC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		C3FEA6501DA294E7007A17EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -79,10 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FC14801E310615008272DC /* UserNotifications.framework in Frameworks */,
 				C3FEA6511DA294E7007A17EB /* CoreLocation.framework in Frameworks */,
 				C38F9C0B1CF31B0C00CAD8FF /* libz.tbd in Frameworks */,
-				C38811311F0A8B31001BA079 /* Bubbles.framework in Frameworks */,
+				C3CA07961F0EABA0006EA819 /* Bubbles.framework in Frameworks */,
 				8FF8C03E1CC116F30061E8F8 /* MapKit.framework in Frameworks */,
 				C36911251E60A09D00C90C62 /* Fabric.framework in Frameworks */,
 				C36911261E60A09D00C90C62 /* Crashlytics.framework in Frameworks */,
@@ -95,7 +90,6 @@
 		15A78F697CBCC0EFA724BD7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C3FC147F1E310615008272DC /* UserNotifications.framework */,
 				C3FEA6501DA294E7007A17EB /* CoreLocation.framework */,
 				C3F19E701D23BA12008ACAC1 /* libPods-BubblesTwo.a */,
 				C38F9C0A1CF31B0C00CAD8FF /* libz.tbd */,
@@ -107,10 +101,10 @@
 		8FF7C39B1CABE02D005D996F = {
 			isa = PBXGroup;
 			children = (
-				C38811301F0A8B31001BA079 /* Bubbles.framework */,
+				C3CA07951F0EABA0006EA819 /* Bubbles.framework */,
 				C36911231E60A09D00C90C62 /* Fabric.framework */,
 				C36911241E60A09D00C90C62 /* Crashlytics.framework */,
-				8FF7C3A61CABE02D005D996F /* BubblesTwo */,
+				8FF7C3A61CABE02D005D996F /* BubblesSample */,
 				8FF7C3A51CABE02D005D996F /* Products */,
 				15A78F697CBCC0EFA724BD7D /* Frameworks */,
 			);
@@ -119,12 +113,12 @@
 		8FF7C3A51CABE02D005D996F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FF7C3A41CABE02D005D996F /* BubblesTwo.app */,
+				8FF7C3A41CABE02D005D996F /* Bubbles-SDK-Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FF7C3A61CABE02D005D996F /* BubblesTwo */ = {
+		8FF7C3A61CABE02D005D996F /* BubblesSample */ = {
 			isa = PBXGroup;
 			children = (
 				C3110ECA1DF5C5EF002518FD /* BubblesTwo.entitlements */,
@@ -134,7 +128,6 @@
 				C330CBB31DEC3BC900F435AE /* ViewController.m */,
 				C30B4C541E000D6500640C39 /* ServicesTableViewController.h */,
 				C30B4C551E000D6500640C39 /* ServicesTableViewController.m */,
-				C38811251F0A473A001BA079 /* back-arrow-white.png */,
 				C39601B81CE9DB8800572A97 /* Main.storyboard */,
 				C3FA517C1E4DC88F0095914F /* viewNotification */,
 				8FF7C3B31CABE02D005D996F /* Assets.xcassets */,
@@ -142,6 +135,7 @@
 				8FF7C3A71CABE02D005D996F /* Supporting Files */,
 				8FC8067C1CCE43DD00267D55 /* Localizable.strings */,
 			);
+			name = BubblesSample;
 			path = BubblesTwo;
 			sourceTree = "<group>";
 		};
@@ -169,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FF7C3A31CABE02D005D996F /* BubblesTwo */ = {
+		8FF7C3A31CABE02D005D996F /* Bubbles-SDK-Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FF7C3C61CABE02D005D996F /* Build configuration list for PBXNativeTarget "BubblesTwo" */;
+			buildConfigurationList = 8FF7C3C61CABE02D005D996F /* Build configuration list for PBXNativeTarget "Bubbles-SDK-Sample" */;
 			buildPhases = (
 				8FF7C3A01CABE02D005D996F /* Sources */,
 				8FF7C3A11CABE02D005D996F /* Frameworks */,
@@ -183,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = BubblesTwo;
+			name = "Bubbles-SDK-Sample";
 			productName = BubblesTwo;
-			productReference = 8FF7C3A41CABE02D005D996F /* BubblesTwo.app */;
+			productReference = 8FF7C3A41CABE02D005D996F /* Bubbles-SDK-Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8FF7C39F1CABE02D005D996F /* Build configuration list for PBXProject "BubblesTwo" */;
+			buildConfigurationList = 8FF7C39F1CABE02D005D996F /* Build configuration list for PBXProject "Bubbles-SDK-Sample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FF7C3A31CABE02D005D996F /* BubblesTwo */,
+				8FF7C3A31CABE02D005D996F /* Bubbles-SDK-Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +232,6 @@
 			files = (
 				8FC8067A1CCE43DD00267D55 /* Localizable.strings in Resources */,
 				C39601B91CE9DB8800572A97 /* Main.storyboard in Resources */,
-				C38811261F0A473A001BA079 /* back-arrow-white.png in Resources */,
 				8FF7C3B41CABE02D005D996F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,7 +444,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FF7C39F1CABE02D005D996F /* Build configuration list for PBXProject "BubblesTwo" */ = {
+		8FF7C39F1CABE02D005D996F /* Build configuration list for PBXProject "Bubbles-SDK-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FF7C3C41CABE02D005D996F /* Debug */,
@@ -460,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FF7C3C61CABE02D005D996F /* Build configuration list for PBXNativeTarget "BubblesTwo" */ = {
+		8FF7C3C61CABE02D005D996F /* Build configuration list for PBXNativeTarget "Bubbles-SDK-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FF7C3C71CABE02D005D996F /* Debug */,

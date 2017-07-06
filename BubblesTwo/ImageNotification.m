@@ -2,8 +2,8 @@
 //  BBImageNotificationViewController.m
 //  BubblesFrameworkDemo
 //
-//  Created by Pierre RACINE on 21/12/2015.
-//  Copyright © 2015 Absolutlabs. All rights reserved.
+//  Created by Karim Koriche on 21/12/2015.
+//  Copyright © 2015 . All rights reserved.
 //
 
 #import "ImageNotification.h"

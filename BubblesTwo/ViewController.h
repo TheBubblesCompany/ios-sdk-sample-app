@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  BubblesTwo
+//  Bubbles SDK Sample
 //
 //  Created by Karim Koriche on 28/11/2016.
-//  Copyright © 2016 Absolutlabs. All rights reserved.
+//  Copyright © 2017 Bubbles Company.  All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,9 +1,9 @@
 //
 //  ServiceViewController.h
-//  BubblesTwo
+//  Bubbles SDK Sample
 //
 //  Created by Karim Koriche on 24/01/2017.
-//  Copyright © 2017 Absolutlabs. All rights reserved.
+//  Copyright © 2017 . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -35,7 +35,7 @@
 
 @property (nonatomic, weak) id<BubblesDelegate> delegate;
 
-+ (void)initWithAPIKey:(NSString *)APIKey andUserId:(NSString*)userID andForceLocalizationPermission:(BOOL)forceLocalizationPermission andForceNotificationPermission:(BOOL)forceNotificationPermission;
++ (void)initWithAPIKey:(NSString *)APIKey andUserId:(NSString*)userID andForceLocalizationPermission:(BOOL)forceLocalizationPermission andForceNotificationPermission:(BOOL)forceNotificationPermission andApplication:(UIApplication *)application;
 + (void)updateUserId:(NSString *)userId;
 + (void)setDebugLogEnabled:(BOOL)enable;
 + (void)didReceiveLocalNotification:(NSDictionary *)userInfo withApplicationState:(UIApplicationState)appState;

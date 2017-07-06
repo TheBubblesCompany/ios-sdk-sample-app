@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8FF7C3A31CABE02D005D996F"
-               BuildableName = "BubblesTwo.app"
-               BlueprintName = "BubblesTwo"
-               ReferencedContainer = "container:BubblesTwo.xcodeproj">
+               BuildableName = "Bubbles-SDK-Sample.app"
+               BlueprintName = "Bubbles-SDK-Sample"
+               ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "8FF7C3BC1CABE02D005D996F"
                BuildableName = "BubblesTwoUITests.xctest"
                BlueprintName = "BubblesTwoUITests"
-               ReferencedContainer = "container:BubblesTwo.xcodeproj">
+               ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "C38F9A751CF3122300CAD8FF"
                BuildableName = "bubbleTwoSDKTests.xctest"
                BlueprintName = "bubbleTwoSDKTests"
-               ReferencedContainer = "container:BubblesTwo.xcodeproj">
+               ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FF7C3A31CABE02D005D996F"
-            BuildableName = "BubblesTwo.app"
-            BlueprintName = "BubblesTwo"
-            ReferencedContainer = "container:BubblesTwo.xcodeproj">
+            BuildableName = "Bubbles-SDK-Sample.app"
+            BlueprintName = "Bubbles-SDK-Sample"
+            ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FF7C3A31CABE02D005D996F"
-            BuildableName = "BubblesTwo.app"
-            BlueprintName = "BubblesTwo"
-            ReferencedContainer = "container:BubblesTwo.xcodeproj">
+            BuildableName = "Bubbles-SDK-Sample.app"
+            BlueprintName = "Bubbles-SDK-Sample"
+            ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FF7C3A31CABE02D005D996F"
-            BuildableName = "BubblesTwo.app"
-            BlueprintName = "BubblesTwo"
-            ReferencedContainer = "container:BubblesTwo.xcodeproj">
+            BuildableName = "Bubbles-SDK-Sample.app"
+            BlueprintName = "Bubbles-SDK-Sample"
+            ReferencedContainer = "container:Bubbles-SDK-Sample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

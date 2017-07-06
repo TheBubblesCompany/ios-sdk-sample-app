@@ -1,9 +1,9 @@
 //
 //  ServicesTableViewController.m
-//  BubblesTwo
+//  Bubbles SDK Sample
 //
 //  Created by Karim Koriche on 13/12/2016.
-//  Copyright © 2016 Absolutlabs. All rights reserved.
+//  Copyright © 2017 Bubbles Company.  All rights reserved.
 //
 
 #import "ServicesTableViewController.h"

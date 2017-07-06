@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  BubblesTwo
+//  Bubbles SDK Sample
 //
-//  Created by Pierre RACINE on 30/03/2016.
-//  Copyright © 2016 Absolutlabs. All rights reserved.
+//  Created by Karim Koriche on 27/06/2017.
+//  Copyright © 2017 Bubbles Company.  All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -28,8 +28,8 @@
         user = [[NSUserDefaults standardUserDefaults] objectForKey:@"currentUser"];
     }
     
-    [Bubbles initWithAPIKey:@"a9e389c456315841705cc4241119ed58" andUserId:user andForceLocalizationPermission:NO andForceNotificationPermission:NO];
-    [Bubbles setDebugLogEnabled:NO];
+    [Bubbles initWithAPIKey:@"a9e389c456315841705cc4241119ed58" andUserId:user andForceLocalizationPermission:NO andForceNotificationPermission:NO andApplication:application];
+    [Bubbles setDebugLogEnabled:YES];
     
     UINavigationController *navigationController = (UINavigationController*) self.window.rootViewController;
     [[[navigationController viewControllers] objectAtIndex:0] performSegueWithIdentifier:@"mainViewSegue" sender:self];
