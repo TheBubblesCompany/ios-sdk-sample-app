@@ -17,8 +17,6 @@
 		C30268301E37BF400003A26F /* WebViewNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C302682E1E37BF400003A26F /* WebViewNotification.m */; };
 		C30B4C561E000D6500640C39 /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B4C551E000D6500640C39 /* ServicesTableViewController.m */; };
 		C330CBB41DEC3BC900F435AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C330CBB31DEC3BC900F435AE /* ViewController.m */; };
-		C36911251E60A09D00C90C62 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36911231E60A09D00C90C62 /* Fabric.framework */; };
-		C36911261E60A09D00C90C62 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36911241E60A09D00C90C62 /* Crashlytics.framework */; };
 		C38F9C0B1CF31B0C00CAD8FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C38F9C0A1CF31B0C00CAD8FF /* libz.tbd */; };
 		C39601B91CE9DB8800572A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39601B81CE9DB8800572A97 /* Main.storyboard */; };
 		C3CA07961F0EABA0006EA819 /* Bubbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA07951F0EABA0006EA819 /* Bubbles.framework */; };
@@ -61,8 +59,6 @@
 		C3110ECA1DF5C5EF002518FD /* BubblesTwo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BubblesTwo.entitlements; sourceTree = "<group>"; };
 		C330CBB21DEC3BC900F435AE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C330CBB31DEC3BC900F435AE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C36911231E60A09D00C90C62 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		C36911241E60A09D00C90C62 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		C38F9C0A1CF31B0C00CAD8FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C39601B81CE9DB8800572A97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C3CA07951F0EABA0006EA819 /* Bubbles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bubbles.framework; sourceTree = "<group>"; };
@@ -79,8 +75,6 @@
 				C38F9C0B1CF31B0C00CAD8FF /* libz.tbd in Frameworks */,
 				C3CA07961F0EABA0006EA819 /* Bubbles.framework in Frameworks */,
 				8FF8C03E1CC116F30061E8F8 /* MapKit.framework in Frameworks */,
-				C36911251E60A09D00C90C62 /* Fabric.framework in Frameworks */,
-				C36911261E60A09D00C90C62 /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				C3CA07951F0EABA0006EA819 /* Bubbles.framework */,
-				C36911231E60A09D00C90C62 /* Fabric.framework */,
-				C36911241E60A09D00C90C62 /* Crashlytics.framework */,
 				8FF7C3A61CABE02D005D996F /* BubblesSample */,
 				8FF7C3A51CABE02D005D996F /* Products */,
 				15A78F697CBCC0EFA724BD7D /* Frameworks */,
@@ -171,7 +163,6 @@
 				8FF7C3A11CABE02D005D996F /* Frameworks */,
 				8FF7C3A21CABE02D005D996F /* Resources */,
 				C38F9A891CF3122300CAD8FF /* Embed Frameworks */,
-				C36911201E609F0A00C90C62 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -237,22 +228,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C36911201E609F0A00C90C62 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run f1f81bfe99baccf9feb597adb5da867f6e170dce e641ae0dbf0cfb0da2878f2ffec38fccc1d2f5d4380e46602d9596407b32f681";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FF7C3A01CABE02D005D996F /* Sources */ = {
