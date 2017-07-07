@@ -16,12 +16,13 @@
 		C302682F1E37BF400003A26F /* ImageNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C302682C1E37BF400003A26F /* ImageNotification.m */; };
 		C30268301E37BF400003A26F /* WebViewNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C302682E1E37BF400003A26F /* WebViewNotification.m */; };
 		C30B4C561E000D6500640C39 /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B4C551E000D6500640C39 /* ServicesTableViewController.m */; };
+		C316E23A1F0FBA9600493C81 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C316E2391F0FBA9600493C81 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C316E2411F0FCAE900493C81 /* Bubbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C316E2401F0FCAE900493C81 /* Bubbles.framework */; };
+		C316E2421F0FCAE900493C81 /* Bubbles.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C316E2401F0FCAE900493C81 /* Bubbles.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C330CBB41DEC3BC900F435AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C330CBB31DEC3BC900F435AE /* ViewController.m */; };
 		C346963C1F0EBE1C0088E94C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C346963B1F0EBE1C0088E94C /* Info.plist */; };
 		C38F9C0B1CF31B0C00CAD8FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C38F9C0A1CF31B0C00CAD8FF /* libz.tbd */; };
 		C39601B91CE9DB8800572A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39601B81CE9DB8800572A97 /* Main.storyboard */; };
-		C3CA07961F0EABA0006EA819 /* Bubbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA07951F0EABA0006EA819 /* Bubbles.framework */; };
-		C3CA07971F0EABA0006EA819 /* Bubbles.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA07951F0EABA0006EA819 /* Bubbles.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C3FEA6511DA294E7007A17EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FEA6501DA294E7007A17EB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C3CA07971F0EABA0006EA819 /* Bubbles.framework in Embed Frameworks */,
+				C316E2421F0FCAE900493C81 /* Bubbles.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,13 +57,14 @@
 		C302682E1E37BF400003A26F /* WebViewNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewNotification.m; sourceTree = "<group>"; };
 		C30B4C541E000D6500640C39 /* ServicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewController.h; sourceTree = "<group>"; };
 		C30B4C551E000D6500640C39 /* ServicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewController.m; sourceTree = "<group>"; };
+		C316E2391F0FBA9600493C81 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C316E2401F0FCAE900493C81 /* Bubbles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bubbles.framework; sourceTree = "<group>"; };
 		C330CBB21DEC3BC900F435AE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C330CBB31DEC3BC900F435AE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C346963B1F0EBE1C0088E94C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C38F9C0A1CF31B0C00CAD8FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C39601B81CE9DB8800572A97 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C3B320C11F0EBD8600FD8839 /* Bubbles-SDK-Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bubbles-SDK-Sample.entitlements"; sourceTree = "<group>"; };
-		C3CA07951F0EABA0006EA819 /* Bubbles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bubbles.framework; sourceTree = "<group>"; };
 		C3FEA6501DA294E7007A17EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -71,9 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C316E23A1F0FBA9600493C81 /* UserNotifications.framework in Frameworks */,
 				C3FEA6511DA294E7007A17EB /* CoreLocation.framework in Frameworks */,
+				C316E2411F0FCAE900493C81 /* Bubbles.framework in Frameworks */,
 				C38F9C0B1CF31B0C00CAD8FF /* libz.tbd in Frameworks */,
-				C3CA07961F0EABA0006EA819 /* Bubbles.framework in Frameworks */,
 				8FF8C03E1CC116F30061E8F8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +87,7 @@
 		15A78F697CBCC0EFA724BD7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C316E2391F0FBA9600493C81 /* UserNotifications.framework */,
 				C3FEA6501DA294E7007A17EB /* CoreLocation.framework */,
 				C38F9C0A1CF31B0C00CAD8FF /* libz.tbd */,
 				8FF8C03D1CC116F30061E8F8 /* MapKit.framework */,
@@ -94,7 +98,7 @@
 		8FF7C39B1CABE02D005D996F = {
 			isa = PBXGroup;
 			children = (
-				C3CA07951F0EABA0006EA819 /* Bubbles.framework */,
+				C316E2401F0FCAE900493C81 /* Bubbles.framework */,
 				8FF7C3A61CABE02D005D996F /* Bubbles-SDK-Sample */,
 				8FF7C3A51CABE02D005D996F /* Products */,
 				15A78F697CBCC0EFA724BD7D /* Frameworks */,
@@ -362,7 +366,8 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Bubbles-SDK-Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -399,7 +404,8 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Bubbles-SDK-Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"$(inherited)",

@@ -20,14 +20,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    NSString * user = @"";
+    NSString * user = @"test";
     
     if ([[NSUserDefaults standardUserDefaults] objectForKey:@"currentUser"])
     {
         user = [[NSUserDefaults standardUserDefaults] objectForKey:@"currentUser"];
     }
+    else
+    {
+        [[NSUserDefaults standardUserDefaults]setObject:user forKey:@"currentUser"];
+        [[NSUserDefaults standardUserDefaults]synchronize];
+    }
     
-    [Bubbles initWithAPIKey:@"a9e389c456315841705cc4241119ed58" andUserId:user andForceLocalizationPermission:NO andForceNotificationPermission:NO andApplication:application];
+    [Bubbles initWithAPIKey:@"d01cf51e58efc86b1340adb509f25e9a" andUserId:user andForceLocalizationPermission:YES andForceNotificationPermission:YES andApplication:application];
     [Bubbles setDebugLogEnabled:YES];
     
     UINavigationController *navigationController = (UINavigationController*) self.window.rootViewController;

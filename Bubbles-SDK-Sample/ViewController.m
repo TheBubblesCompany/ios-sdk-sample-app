@@ -104,9 +104,18 @@
     
     BubbleServiceView * webviewService = [Bubbles getWebviewService];
     
+    if([[[[[UIApplication sharedApplication]delegate]window]rootViewController]presentedViewController])
+    {
+        [[[[[UIApplication sharedApplication]delegate]window]rootViewController] dismissViewControllerAnimated:NO completion:nil];
+    }
+    
     if ([_currentFullscreenMode intValue] == 0)
     {
-        [webviewService.webviewService setFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64)];
+        [webviewService.webviewService setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+        [webviewService.navigationItem setTitle:_currentServiceName];
+        webviewService.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+        [self setCustomBackButton:webviewService];
+        
     }
     else
     {
