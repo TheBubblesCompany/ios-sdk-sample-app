@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To get the most out of the Bubbles experience you have to accept the location! Thank you!</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>To get the most out of the Bubbles experience you have to accept the location! Thank you!</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -72,7 +76,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Used to take a picture</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>To get the most out of the Bubbles experience you have to accept the location! Thank you</string>
+	<string>To get the most out of the Bubbles experience you have to accept the location! Thank you!</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Advertisement would like to store a photo.</string>
 	<key>UIAppFonts</key>
