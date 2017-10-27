@@ -12,6 +12,10 @@
 		8FF7C3AC1CABE02D005D996F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7C3AB1CABE02D005D996F /* AppDelegate.m */; };
 		8FF7C3B41CABE02D005D996F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF7C3B31CABE02D005D996F /* Assets.xcassets */; };
 		8FF8C03E1CC116F30061E8F8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF8C03D1CC116F30061E8F8 /* MapKit.framework */; };
+		AED244591FA35CCA00440D0F /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED244521FA35CCA00440D0F /* Page1ViewController.m */; };
+		AED2445A1FA35CCA00440D0F /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED244541FA35CCA00440D0F /* Page2ViewController.m */; };
+		AED2445B1FA35CCA00440D0F /* Page3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED244561FA35CCA00440D0F /* Page3ViewController.m */; };
+		AED2445C1FA35CCA00440D0F /* Page4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED244581FA35CCA00440D0F /* Page4ViewController.m */; };
 		C302682A1E37A8450003A26F /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30268291E37A8450003A26F /* ServiceViewController.m */; };
 		C302682F1E37BF400003A26F /* ImageNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C302682C1E37BF400003A26F /* ImageNotification.m */; };
 		C30268301E37BF400003A26F /* WebViewNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C302682E1E37BF400003A26F /* WebViewNotification.m */; };
@@ -49,6 +53,14 @@
 		8FF7C3AB1CABE02D005D996F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8FF7C3B31CABE02D005D996F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FF8C03D1CC116F30061E8F8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AED244511FA35CCA00440D0F /* Page1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
+		AED244521FA35CCA00440D0F /* Page1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1ViewController.m; sourceTree = "<group>"; };
+		AED244531FA35CCA00440D0F /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		AED244541FA35CCA00440D0F /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
+		AED244551FA35CCA00440D0F /* Page3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page3ViewController.h; sourceTree = "<group>"; };
+		AED244561FA35CCA00440D0F /* Page3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3ViewController.m; sourceTree = "<group>"; };
+		AED244571FA35CCA00440D0F /* Page4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page4ViewController.h; sourceTree = "<group>"; };
+		AED244581FA35CCA00440D0F /* Page4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page4ViewController.m; sourceTree = "<group>"; };
 		C30268281E37A8450003A26F /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
 		C30268291E37A8450003A26F /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
 		C302682B1E37BF400003A26F /* ImageNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageNotification.h; sourceTree = "<group>"; };
@@ -125,6 +137,7 @@
 				C30B4C551E000D6500640C39 /* ServicesTableViewController.m */,
 				C39601B81CE9DB8800572A97 /* Main.storyboard */,
 				C346963B1F0EBE1C0088E94C /* Info.plist */,
+				AED244501FA35CCA00440D0F /* Page */,
 				C3FA517C1E4DC88F0095914F /* viewNotification */,
 				8FF7C3B31CABE02D005D996F /* Assets.xcassets */,
 				8FF7C3A71CABE02D005D996F /* Supporting Files */,
@@ -139,6 +152,21 @@
 				8FF7C3A81CABE02D005D996F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AED244501FA35CCA00440D0F /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				AED244511FA35CCA00440D0F /* Page1ViewController.h */,
+				AED244521FA35CCA00440D0F /* Page1ViewController.m */,
+				AED244531FA35CCA00440D0F /* Page2ViewController.h */,
+				AED244541FA35CCA00440D0F /* Page2ViewController.m */,
+				AED244551FA35CCA00440D0F /* Page3ViewController.h */,
+				AED244561FA35CCA00440D0F /* Page3ViewController.m */,
+				AED244571FA35CCA00440D0F /* Page4ViewController.h */,
+				AED244581FA35CCA00440D0F /* Page4ViewController.m */,
+			);
+			path = Page;
 			sourceTree = "<group>";
 		};
 		C3FA517C1E4DC88F0095914F /* viewNotification */ = {
@@ -258,9 +286,13 @@
 				C330CBB41DEC3BC900F435AE /* ViewController.m in Sources */,
 				C302682F1E37BF400003A26F /* ImageNotification.m in Sources */,
 				8FF7C3AC1CABE02D005D996F /* AppDelegate.m in Sources */,
+				AED2445B1FA35CCA00440D0F /* Page3ViewController.m in Sources */,
 				8FF7C3A91CABE02D005D996F /* main.m in Sources */,
 				C302682A1E37A8450003A26F /* ServiceViewController.m in Sources */,
+				AED244591FA35CCA00440D0F /* Page1ViewController.m in Sources */,
 				C30B4C561E000D6500640C39 /* ServicesTableViewController.m in Sources */,
+				AED2445C1FA35CCA00440D0F /* Page4ViewController.m in Sources */,
+				AED2445A1FA35CCA00440D0F /* Page2ViewController.m in Sources */,
 				C30268301E37BF400003A26F /* WebViewNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +415,7 @@
 					"\"${PODS_ROOT}/Headers/Public\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Bubbles-SDK-Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_DYLIB_INSTALL_NAME = "";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +453,7 @@
 					"\"${PODS_ROOT}/Headers/Public\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Bubbles-SDK-Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_DYLIB_INSTALL_NAME = "";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
 				ONLY_ACTIVE_ARCH = NO;

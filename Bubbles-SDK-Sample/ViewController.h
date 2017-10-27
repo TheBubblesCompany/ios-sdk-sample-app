@@ -26,7 +26,6 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activity;
 @property (strong, nonatomic) NSString * userID;
 
-
 -(void)serviceSelected;
 
 @end

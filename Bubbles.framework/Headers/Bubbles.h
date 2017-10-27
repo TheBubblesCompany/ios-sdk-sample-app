@@ -30,12 +30,12 @@
 
 @end
 
-
 @interface Bubbles : NSObject
 
 @property (nonatomic, weak) id<BubblesDelegate> delegate;
 
-+ (void)initWithAPIKey:(NSString *)APIKey andUserId:(NSString*)userID andForceLocalizationPermission:(BOOL)forceLocalizationPermission andForceNotificationPermission:(BOOL)forceNotificationPermission andApplication:(UIApplication *)application;
++ (id)initWithAPIKey:(NSString *)APIKey andUserId:(NSString*)userID andForceLocalizationPermission:(BOOL)forceLocalizationPermission andForceNotificationPermission:(BOOL)forceNotificationPermission andApplication:(UIApplication *)application;
++ (id)instance;
 + (void)updateUserId:(NSString *)userId;
 + (void)setDebugLogEnabled:(BOOL)enable;
 + (void)didReceiveLocalNotification:(NSDictionary *)userInfo withApplicationState:(UIApplicationState)appState;
@@ -50,10 +50,46 @@
 + (void)releaseService;
 /**********************************************/
 
+/**************** MAGIC BUTTON ****************/
 
+/**
+ * Registers and display magic button on the controller view.
+ *
+ * @param hashKey Magic button hash
+ * @param controller Concerned controller
+ */
+- (void)addMagicButton:(NSString *)hashKey forController:(UIViewController *)controller;
 
+/**
+ * Registers magic button (don't display it) on the controller view.
+ *
+ * @param hashKey Magic button hash
+ * @param controller Concerned controller
+ */
+- (void)registerMagicButton:(NSString *)hashKey forController:(UIViewController *)controller;
 
+/**
+ * Display an already registered magic button on the controller view.
+ *
+ * @param hashKey Magic button hash
+ * @param controller Concerned controller
+ * @param error Error send when button was not registered
+ */
+- (void)displayMagicButton:(NSString *)hashKey
+             forController:(UIViewController *)controller
+          didFailWithError:(NSError **) error;
 
+/**
+ * Hide an already registered magic button on the controller view.
+ *
+ * @param hashKey Magic button hash
+ * @param controller Concerned controller
+ * @param error Error send when button was not registered
+ */
+- (void)hideMagicButton:(NSString*)hashKey
+          forController:(UIViewController *)controller
+       didFailWithError:(NSError **) error;
 
+/**********************************************/
 
 @end

@@ -20,7 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    NSString * user = @"test";
+    NSString * user = @"";
     
     if ([[NSUserDefaults standardUserDefaults] objectForKey:@"currentUser"])
     {

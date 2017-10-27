@@ -13,6 +13,7 @@
 #import "ServiceViewController.h"
 #import "ImageNotification.h"
 #import "WebViewNotification.h"
+#import "Page1ViewController.h"
 
 @interface ViewController () <BubblesDelegate, UINavigationControllerDelegate>
 {
@@ -63,6 +64,22 @@
     [_activity startAnimating];
 }
 
+- (IBAction)showPage1:(id)sender {
+    Page1ViewController * page1ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"page1"];
+    [self.navigationController pushViewController:page1ViewController animated:YES];
+}
+- (IBAction)showPage2:(id)sender {
+    Page1ViewController * page1ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"page2"];
+    [self.navigationController pushViewController:page1ViewController animated:YES];
+}
+- (IBAction)showPage3:(id)sender {
+    Page1ViewController * page1ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"page3"];
+    [self.navigationController pushViewController:page1ViewController animated:YES];
+}
+- (IBAction)showPage4:(id)sender {
+    Page1ViewController * page1ViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"page4"];
+    [self.navigationController pushViewController:page1ViewController animated:YES];
+}
 
 - (IBAction)chooseService:(id)sender {
     
@@ -126,6 +143,9 @@
     [self.navigationController pushViewController:webviewService animated:YES];
 }
 
+
+- (IBAction)page1Action:(id)sender {
+}
 
 -(void)serviceSelected
 {
@@ -238,7 +258,7 @@
             
             if ([[srv objectForKey:@"id"] isEqualToString:serviceId])
             {
-                [self popAction];
+                [self goBackToBubblesDelegateUIViewController];
                 
                 flag = YES;
                 
@@ -246,12 +266,24 @@
                 _currentServiceId = [srv objectForKey:@"id"];
                 _currentFullscreenMode = [NSNumber numberWithInt:[[srv objectForKey:@"fullscreen"] intValue]];
                 
-                [self performSelector:@selector(performLoadService) withObject:nil afterDelay:1];
+                [self performSelector:@selector(performLoadService) withObject:nil afterDelay:0.2];
                 
                 break;
             }
         }
     }
+}
+
+- (void)goBackToBubblesDelegateUIViewController {
+    UINavigationController *navigationController = self.navigationController;
+    NSArray<__kindof UIViewController *> *viewControllers = navigationController.viewControllers;
+    [viewControllers enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(__kindof UIViewController * _Nonnull viewController, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (![viewController conformsToProtocol:@protocol(BubblesDelegate)]) {
+            [self popAction];
+        } else {
+            *stop = YES;
+        }
+    }];
 }
 
 -(void) onCloseService
@@ -282,11 +314,13 @@
     {
         [_currentUserLabel setText:[NSString stringWithFormat:@"Current tag is %@", _userID]];
         [_label setText:@"Services loaded, please choose a service to launch."];
+        [_userTextfield setText:_userID];
     }
     else
     {
         [_currentUserLabel setText:[NSString stringWithFormat:@"Please enter a tag"]];
         [_label setText:@""];
+        _userTextfield.text = @"";
     }
     
     NSMutableAttributedString *text =
@@ -308,8 +342,6 @@
     
     [_btnChooseService setUserInteractionEnabled:YES];
     [_btnChooseService setBackgroundColor:[UIColor colorWithRed:30/255.0 green:122/255.0 blue:65/255.0 alpha:1.0]];
-    
-    _userTextfield.text = @"";
 }
 
 
@@ -451,8 +483,9 @@
 {
     UIImage *buttonImage = [UIImage imageNamed:@"back-arrow-white.png"];
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setFrame:CGRectMake(0, 0, 30, 30)];
     [button setImage:buttonImage forState:UIControlStateNormal];
-    button.frame = CGRectMake(0, 0, 30, 30);
+    [button.imageView setContentMode:UIViewContentModeScaleAspectFit];
     [button addTarget:self action:@selector(popAction) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     viewContoller.navigationItem.leftBarButtonItem = customBarItem;

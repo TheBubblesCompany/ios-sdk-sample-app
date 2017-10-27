@@ -41,6 +41,7 @@
 - (void) getAPIkey:(NSString*)apiKey andUserId:(NSString*)userID;
 
 - (void) requestServices;
+- (void) requestMagicButtons;
 
 - (void) confirmLocalization;
 - (void) confirmNotification;

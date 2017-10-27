@@ -7,6 +7,7 @@
 //
 
 #import "ServicesTableViewController.h"
+#import <Bubbles/Bubbles.h>
 
 @interface ServicesTableViewController ()
 
